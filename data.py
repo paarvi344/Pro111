@@ -1,5 +1,4 @@
-import csv
-from cv2 import mean 
+import csv 
 import pandas as pd
 import statistics
 import plotly.figure_factory as ff
