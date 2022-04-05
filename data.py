@@ -68,7 +68,7 @@ fig.add_trace(go.Scatter(x = [second_standard_deviation_start ,second_standard_d
 fig.add_trace(go.Scatter(x = [third_standard_deviation_start , third_standard_deviation_end], y = [0,0.17], name = "Mean "))
 fig.show()
 
-z_score = (mean_of_sample2  - mean)/standard_deviation
+z_score = (mean-mean_of_sample2)/standard_deviation
 print("Z SCORE = ", z_score)
 
 
